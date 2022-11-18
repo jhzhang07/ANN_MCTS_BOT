@@ -1,0 +1,1432 @@
+# depslib dependency file v1.0
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\col2im.c
+	<stdio.h>
+	<math.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\cuda.c
+	"cuda.h"
+	"utils.h"
+	"blas.h"
+	<assert.h>
+	<stdlib.h>
+	<time.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\cuda.h
+	"darknet.h"
+
+1617116187 c:\users\zhuzhifang\documents\alphapig\train\darknet.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<time.h>
+	"cuda_runtime.h"
+	"curand.h"
+	"cublas_v2.h"
+	"cudnn.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\utils.h
+	<stdio.h>
+	<time.h>
+	"darknet.h"
+	"list.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\list.h
+	"darknet.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\blas.h
+	"darknet.h"
+	"cuda.h"
+	"tree.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\tree.h
+	"darknet.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\activation_layer.c
+	"activation_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\activation_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\activations.h
+	"darknet.h"
+	"cuda.h"
+	"math.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\layer.h
+	"darknet.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\network.h
+	"darknet.h"
+	"image.h"
+	"layer.h"
+	"data.h"
+	"tree.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\image.h
+	<stdlib.h>
+	<stdio.h>
+	<float.h>
+	<string.h>
+	<math.h>
+	"box.h"
+	"darknet.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\box.h
+	"darknet.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\data.h
+	<pthread.h>
+	"darknet.h"
+	"matrix.h"
+	"list.h"
+	"image.h"
+	"tree.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\matrix.h
+	"darknet.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\gemm.h
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\activations.c
+	"activations.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\avgpool_layer.c
+	"avgpool_layer.h"
+	"cuda.h"
+	<stdio.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\avgpool_layer.h
+	"image.h"
+	"cuda.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\batchnorm_layer.c
+	"convolutional_layer.h"
+	"batchnorm_layer.h"
+	"blas.h"
+	<stdio.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\convolutional_layer.h
+	"cuda.h"
+	"image.h"
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\batchnorm_layer.h
+	"image.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\blas.c
+	"blas.h"
+	<math.h>
+	<assert.h>
+	<float.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\box.c
+	"box.h"
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\connected_layer.c
+	"connected_layer.h"
+	"convolutional_layer.h"
+	"batchnorm_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\connected_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\convolutional_layer.c
+	"convolutional_layer.h"
+	"utils.h"
+	"batchnorm_layer.h"
+	"im2col.h"
+	"col2im.h"
+	"blas.h"
+	"gemm.h"
+	<stdio.h>
+	<time.h>
+	"xnor_layer.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\im2col.h
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\col2im.h
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\cost_layer.c
+	"cost_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\cost_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\crnn_layer.c
+	"crnn_layer.h"
+	"convolutional_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\crnn_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\crop_layer.c
+	"crop_layer.h"
+	"cuda.h"
+	<stdio.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\crop_layer.h
+	"image.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\data.c
+	"data.h"
+	"utils.h"
+	"image.h"
+	"cuda.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\deconvolutional_layer.c
+	"deconvolutional_layer.h"
+	"convolutional_layer.h"
+	"batchnorm_layer.h"
+	"utils.h"
+	"im2col.h"
+	"col2im.h"
+	"blas.h"
+	"gemm.h"
+	<stdio.h>
+	<time.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\deconvolutional_layer.h
+	"cuda.h"
+	"image.h"
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\demo.c
+	"network.h"
+	"detection_layer.h"
+	"region_layer.h"
+	"cost_layer.h"
+	"utils.h"
+	"parser.h"
+	"box.h"
+	"image.h"
+	"demo.h"
+	<sys/time.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\detection_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\region_layer.h
+	"darknet.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\parser.h
+	"darknet.h"
+	"network.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\demo.h
+	"image.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\detection_layer.c
+	"detection_layer.h"
+	"activations.h"
+	"softmax_layer.h"
+	"blas.h"
+	"box.h"
+	"cuda.h"
+	"utils.h"
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<stdlib.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\softmax_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\dropout_layer.c
+	"dropout_layer.h"
+	"utils.h"
+	"cuda.h"
+	<stdlib.h>
+	<stdio.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\dropout_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\gemm.c
+	"gemm.h"
+	"utils.h"
+	"cuda.h"
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\gru_layer.c
+	"gru_layer.h"
+	"connected_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\gru_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\im2col.c
+	"im2col.h"
+	<stdio.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\image.c
+	"image.h"
+	"utils.h"
+	"blas.h"
+	"cuda.h"
+	<stdio.h>
+	<math.h>
+	"stb_image.h"
+	"stb_image_write.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\stb_image_write.h
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\image_opencv.cpp
+	"stdio.h"
+	"stdlib.h"
+	"opencv2/opencv.hpp"
+	"image.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\iseg_layer.c
+	"iseg_layer.h"
+	"activations.h"
+	"blas.h"
+	"box.h"
+	"cuda.h"
+	"utils.h"
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<stdlib.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\iseg_layer.h
+	"darknet.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\l2norm_layer.c
+	"l2norm_layer.h"
+	"activations.h"
+	"blas.h"
+	"cuda.h"
+	<float.h>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\l2norm_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\layer.c
+	"layer.h"
+	"cuda.h"
+	<stdlib.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\list.c
+	<stdlib.h>
+	<string.h>
+	"list.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\local_layer.c
+	"local_layer.h"
+	"utils.h"
+	"im2col.h"
+	"col2im.h"
+	"blas.h"
+	"gemm.h"
+	<stdio.h>
+	<time.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\local_layer.h
+	"cuda.h"
+	"image.h"
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\logistic_layer.c
+	"logistic_layer.h"
+	"activations.h"
+	"blas.h"
+	"cuda.h"
+	<float.h>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\logistic_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\lstm_layer.c
+	"lstm_layer.h"
+	"connected_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\lstm_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1617135440 source:c:\users\zhuzhifang\documents\alphapig\train\main.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<omp.h>
+	"darknet.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\matrix.c
+	"matrix.h"
+	"utils.h"
+	"blas.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\maxpool_layer.c
+	"maxpool_layer.h"
+	"cuda.h"
+	<stdio.h>
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\maxpool_layer.h
+	"image.h"
+	"cuda.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\network.c
+	<stdio.h>
+	<time.h>
+	<assert.h>
+	"network.h"
+	"image.h"
+	"data.h"
+	"utils.h"
+	"blas.h"
+	"crop_layer.h"
+	"connected_layer.h"
+	"gru_layer.h"
+	"rnn_layer.h"
+	"crnn_layer.h"
+	"local_layer.h"
+	"convolutional_layer.h"
+	"activation_layer.h"
+	"detection_layer.h"
+	"region_layer.h"
+	"yolo_layer.h"
+	"normalization_layer.h"
+	"batchnorm_layer.h"
+	"maxpool_layer.h"
+	"reorg_layer.h"
+	"avgpool_layer.h"
+	"cost_layer.h"
+	"softmax_layer.h"
+	"dropout_layer.h"
+	"route_layer.h"
+	"upsample_layer.h"
+	"shortcut_layer.h"
+	"parser.h"
+	"data.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\rnn_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\yolo_layer.h
+	"darknet.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\normalization_layer.h
+	"image.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\reorg_layer.h
+	"image.h"
+	"cuda.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\route_layer.h
+	"network.h"
+	"layer.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\upsample_layer.h
+	"darknet.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\shortcut_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\normalization_layer.c
+	"normalization_layer.h"
+	"blas.h"
+	<stdio.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\option_list.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"option_list.h"
+	"utils.h"
+
+1607630059 c:\users\zhuzhifang\documents\alphapig\train\option_list.h
+	"list.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\parser.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	"activation_layer.h"
+	"logistic_layer.h"
+	"l2norm_layer.h"
+	"activations.h"
+	"avgpool_layer.h"
+	"batchnorm_layer.h"
+	"blas.h"
+	"connected_layer.h"
+	"deconvolutional_layer.h"
+	"convolutional_layer.h"
+	"cost_layer.h"
+	"crnn_layer.h"
+	"crop_layer.h"
+	"detection_layer.h"
+	"dropout_layer.h"
+	"gru_layer.h"
+	"list.h"
+	"local_layer.h"
+	"maxpool_layer.h"
+	"normalization_layer.h"
+	"option_list.h"
+	"parser.h"
+	"region_layer.h"
+	"yolo_layer.h"
+	"iseg_layer.h"
+	"reorg_layer.h"
+	"rnn_layer.h"
+	"route_layer.h"
+	"upsample_layer.h"
+	"shortcut_layer.h"
+	"softmax_layer.h"
+	"lstm_layer.h"
+	"utils.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\region_layer.c
+	"region_layer.h"
+	"activations.h"
+	"blas.h"
+	"box.h"
+	"cuda.h"
+	"utils.h"
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<stdlib.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\reorg_layer.c
+	"reorg_layer.h"
+	"cuda.h"
+	"blas.h"
+	<stdio.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\rnn_layer.c
+	"rnn_layer.h"
+	"connected_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\route_layer.c
+	"route_layer.h"
+	"cuda.h"
+	"blas.h"
+	<stdio.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\shortcut_layer.c
+	"shortcut_layer.h"
+	"cuda.h"
+	"blas.h"
+	"activations.h"
+	<stdio.h>
+	<assert.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\softmax_layer.c
+	"softmax_layer.h"
+	"blas.h"
+	"cuda.h"
+	<float.h>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\tree.c
+	<stdio.h>
+	<stdlib.h>
+	"tree.h"
+	"utils.h"
+	"data.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\upsample_layer.c
+	"upsample_layer.h"
+	"cuda.h"
+	"blas.h"
+	<stdio.h>
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\utils.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+	<unistd.h>
+	<float.h>
+	<limits.h>
+	<time.h>
+	<sys/time.h>
+	"utils.h"
+
+1607630059 source:c:\users\zhuzhifang\documents\alphapig\train\yolo_layer.c
+	"yolo_layer.h"
+	"activations.h"
+	"blas.h"
+	"box.h"
+	"cuda.h"
+	"utils.h"
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<stdlib.h>
+
+1607630059 source:c:\users\administrator\desktop\train\activation_layer.c
+	"activation_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 c:\users\administrator\desktop\train\activation_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\administrator\desktop\train\activations.h
+	"darknet.h"
+	"cuda.h"
+	"math.h"
+
+1617116187 c:\users\administrator\desktop\train\darknet.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	<time.h>
+	"cuda_runtime.h"
+	"curand.h"
+	"cublas_v2.h"
+	"cudnn.h"
+
+1607630059 c:\users\administrator\desktop\train\cuda.h
+	"darknet.h"
+
+1607630059 c:\users\administrator\desktop\train\layer.h
+	"darknet.h"
+
+1607630059 c:\users\administrator\desktop\train\network.h
+	"darknet.h"
+	"image.h"
+	"layer.h"
+	"data.h"
+	"tree.h"
+
+1607630059 c:\users\administrator\desktop\train\image.h
+	<stdlib.h>
+	<stdio.h>
+	<float.h>
+	<string.h>
+	<math.h>
+	"box.h"
+	"darknet.h"
+
+1607630059 c:\users\administrator\desktop\train\box.h
+	"darknet.h"
+
+1607630059 c:\users\administrator\desktop\train\data.h
+	<pthread.h>
+	"darknet.h"
+	"matrix.h"
+	"list.h"
+	"image.h"
+	"tree.h"
+
+1607630059 c:\users\administrator\desktop\train\matrix.h
+	"darknet.h"
+
+1607630059 c:\users\administrator\desktop\train\list.h
+	"darknet.h"
+
+1607630059 c:\users\administrator\desktop\train\tree.h
+	"darknet.h"
+
+1607630059 c:\users\administrator\desktop\train\utils.h
+	<stdio.h>
+	<time.h>
+	"darknet.h"
+	"list.h"
+
+1607630059 c:\users\administrator\desktop\train\blas.h
+	"darknet.h"
+	"cuda.h"
+	"tree.h"
+
+1607630059 c:\users\administrator\desktop\train\gemm.h
+
+1607630059 source:c:\users\administrator\desktop\train\activations.c
+	"activations.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 source:c:\users\administrator\desktop\train\avgpool_layer.c
+	"avgpool_layer.h"
+	"cuda.h"
+	<stdio.h>
+
+1607630059 c:\users\administrator\desktop\train\avgpool_layer.h
+	"image.h"
+	"cuda.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\batchnorm_layer.c
+	"convolutional_layer.h"
+	"batchnorm_layer.h"
+	"blas.h"
+	<stdio.h>
+
+1607630059 c:\users\administrator\desktop\train\convolutional_layer.h
+	"cuda.h"
+	"image.h"
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\administrator\desktop\train\batchnorm_layer.h
+	"image.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\blas.c
+	"blas.h"
+	<math.h>
+	<assert.h>
+	<float.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 source:c:\users\administrator\desktop\train\box.c
+	"box.h"
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+
+1607630059 source:c:\users\administrator\desktop\train\col2im.c
+	<stdio.h>
+	<math.h>
+
+1607630059 source:c:\users\administrator\desktop\train\connected_layer.c
+	"connected_layer.h"
+	"convolutional_layer.h"
+	"batchnorm_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 c:\users\administrator\desktop\train\connected_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\convolutional_layer.c
+	"convolutional_layer.h"
+	"utils.h"
+	"batchnorm_layer.h"
+	"im2col.h"
+	"col2im.h"
+	"blas.h"
+	"gemm.h"
+	<stdio.h>
+	<time.h>
+	"xnor_layer.h"
+
+1607630059 c:\users\administrator\desktop\train\im2col.h
+
+1607630059 c:\users\administrator\desktop\train\col2im.h
+
+1607630059 source:c:\users\administrator\desktop\train\cost_layer.c
+	"cost_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1607630059 c:\users\administrator\desktop\train\cost_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\crnn_layer.c
+	"crnn_layer.h"
+	"convolutional_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 c:\users\administrator\desktop\train\crnn_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\crop_layer.c
+	"crop_layer.h"
+	"cuda.h"
+	<stdio.h>
+
+1607630059 c:\users\administrator\desktop\train\crop_layer.h
+	"image.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\cuda.c
+	"cuda.h"
+	"utils.h"
+	"blas.h"
+	<assert.h>
+	<stdlib.h>
+	<time.h>
+
+1607630059 source:c:\users\administrator\desktop\train\data.c
+	"data.h"
+	"utils.h"
+	"image.h"
+	"cuda.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 source:c:\users\administrator\desktop\train\deconvolutional_layer.c
+	"deconvolutional_layer.h"
+	"convolutional_layer.h"
+	"batchnorm_layer.h"
+	"utils.h"
+	"im2col.h"
+	"col2im.h"
+	"blas.h"
+	"gemm.h"
+	<stdio.h>
+	<time.h>
+
+1607630059 c:\users\administrator\desktop\train\deconvolutional_layer.h
+	"cuda.h"
+	"image.h"
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\demo.c
+	"network.h"
+	"detection_layer.h"
+	"region_layer.h"
+	"cost_layer.h"
+	"utils.h"
+	"parser.h"
+	"box.h"
+	"image.h"
+	"demo.h"
+	<sys/time.h>
+
+1607630059 c:\users\administrator\desktop\train\detection_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\administrator\desktop\train\region_layer.h
+	"darknet.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\administrator\desktop\train\parser.h
+	"darknet.h"
+	"network.h"
+
+1607630059 c:\users\administrator\desktop\train\demo.h
+	"image.h"
+
+1607630059 source:c:\users\administrator\desktop\train\detection_layer.c
+	"detection_layer.h"
+	"activations.h"
+	"softmax_layer.h"
+	"blas.h"
+	"box.h"
+	"cuda.h"
+	"utils.h"
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<stdlib.h>
+
+1607630059 c:\users\administrator\desktop\train\softmax_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\dropout_layer.c
+	"dropout_layer.h"
+	"utils.h"
+	"cuda.h"
+	<stdlib.h>
+	<stdio.h>
+
+1607630059 c:\users\administrator\desktop\train\dropout_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\gemm.c
+	"gemm.h"
+	"utils.h"
+	"cuda.h"
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1607630059 source:c:\users\administrator\desktop\train\gru_layer.c
+	"gru_layer.h"
+	"connected_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 c:\users\administrator\desktop\train\gru_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\im2col.c
+	"im2col.h"
+	<stdio.h>
+
+1607630059 source:c:\users\administrator\desktop\train\image.c
+	"image.h"
+	"utils.h"
+	"blas.h"
+	"cuda.h"
+	<stdio.h>
+	<math.h>
+	"stb_image.h"
+	"stb_image_write.h"
+
+1607630059 c:\users\administrator\desktop\train\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1607630059 c:\users\administrator\desktop\train\stb_image_write.h
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1607630059 source:c:\users\administrator\desktop\train\image_opencv.cpp
+	"stdio.h"
+	"stdlib.h"
+	"opencv2/opencv.hpp"
+	"image.h"
+
+1607630059 source:c:\users\administrator\desktop\train\iseg_layer.c
+	"iseg_layer.h"
+	"activations.h"
+	"blas.h"
+	"box.h"
+	"cuda.h"
+	"utils.h"
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<stdlib.h>
+
+1607630059 c:\users\administrator\desktop\train\iseg_layer.h
+	"darknet.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\l2norm_layer.c
+	"l2norm_layer.h"
+	"activations.h"
+	"blas.h"
+	"cuda.h"
+	<float.h>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+
+1607630059 c:\users\administrator\desktop\train\l2norm_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\layer.c
+	"layer.h"
+	"cuda.h"
+	<stdlib.h>
+
+1607630059 source:c:\users\administrator\desktop\train\list.c
+	<stdlib.h>
+	<string.h>
+	"list.h"
+
+1607630059 source:c:\users\administrator\desktop\train\local_layer.c
+	"local_layer.h"
+	"utils.h"
+	"im2col.h"
+	"col2im.h"
+	"blas.h"
+	"gemm.h"
+	<stdio.h>
+	<time.h>
+
+1607630059 c:\users\administrator\desktop\train\local_layer.h
+	"cuda.h"
+	"image.h"
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\logistic_layer.c
+	"logistic_layer.h"
+	"activations.h"
+	"blas.h"
+	"cuda.h"
+	<float.h>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+
+1607630059 c:\users\administrator\desktop\train\logistic_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\lstm_layer.c
+	"lstm_layer.h"
+	"connected_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 c:\users\administrator\desktop\train\lstm_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\matrix.c
+	"matrix.h"
+	"utils.h"
+	"blas.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+
+1607630059 source:c:\users\administrator\desktop\train\maxpool_layer.c
+	"maxpool_layer.h"
+	"cuda.h"
+	<stdio.h>
+
+1607630059 c:\users\administrator\desktop\train\maxpool_layer.h
+	"image.h"
+	"cuda.h"
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\network.c
+	<stdio.h>
+	<time.h>
+	<assert.h>
+	"network.h"
+	"image.h"
+	"data.h"
+	"utils.h"
+	"blas.h"
+	"crop_layer.h"
+	"connected_layer.h"
+	"gru_layer.h"
+	"rnn_layer.h"
+	"crnn_layer.h"
+	"local_layer.h"
+	"convolutional_layer.h"
+	"activation_layer.h"
+	"detection_layer.h"
+	"region_layer.h"
+	"yolo_layer.h"
+	"normalization_layer.h"
+	"batchnorm_layer.h"
+	"maxpool_layer.h"
+	"reorg_layer.h"
+	"avgpool_layer.h"
+	"cost_layer.h"
+	"softmax_layer.h"
+	"dropout_layer.h"
+	"route_layer.h"
+	"upsample_layer.h"
+	"shortcut_layer.h"
+	"parser.h"
+	"data.h"
+
+1607630059 c:\users\administrator\desktop\train\rnn_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\administrator\desktop\train\yolo_layer.h
+	"darknet.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\administrator\desktop\train\normalization_layer.h
+	"image.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\administrator\desktop\train\reorg_layer.h
+	"image.h"
+	"cuda.h"
+	"layer.h"
+	"network.h"
+
+1607630059 c:\users\administrator\desktop\train\route_layer.h
+	"network.h"
+	"layer.h"
+
+1607630059 c:\users\administrator\desktop\train\upsample_layer.h
+	"darknet.h"
+
+1607630059 c:\users\administrator\desktop\train\shortcut_layer.h
+	"layer.h"
+	"network.h"
+
+1607630059 source:c:\users\administrator\desktop\train\normalization_layer.c
+	"normalization_layer.h"
+	"blas.h"
+	<stdio.h>
+
+1607630059 source:c:\users\administrator\desktop\train\option_list.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"option_list.h"
+	"utils.h"
+
+1607630059 c:\users\administrator\desktop\train\option_list.h
+	"list.h"
+
+1607630059 source:c:\users\administrator\desktop\train\parser.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	"activation_layer.h"
+	"logistic_layer.h"
+	"l2norm_layer.h"
+	"activations.h"
+	"avgpool_layer.h"
+	"batchnorm_layer.h"
+	"blas.h"
+	"connected_layer.h"
+	"deconvolutional_layer.h"
+	"convolutional_layer.h"
+	"cost_layer.h"
+	"crnn_layer.h"
+	"crop_layer.h"
+	"detection_layer.h"
+	"dropout_layer.h"
+	"gru_layer.h"
+	"list.h"
+	"local_layer.h"
+	"maxpool_layer.h"
+	"normalization_layer.h"
+	"option_list.h"
+	"parser.h"
+	"region_layer.h"
+	"yolo_layer.h"
+	"iseg_layer.h"
+	"reorg_layer.h"
+	"rnn_layer.h"
+	"route_layer.h"
+	"upsample_layer.h"
+	"shortcut_layer.h"
+	"softmax_layer.h"
+	"lstm_layer.h"
+	"utils.h"
+
+1607630059 source:c:\users\administrator\desktop\train\region_layer.c
+	"region_layer.h"
+	"activations.h"
+	"blas.h"
+	"box.h"
+	"cuda.h"
+	"utils.h"
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<stdlib.h>
+
+1607630059 source:c:\users\administrator\desktop\train\reorg_layer.c
+	"reorg_layer.h"
+	"cuda.h"
+	"blas.h"
+	<stdio.h>
+
+1607630059 source:c:\users\administrator\desktop\train\rnn_layer.c
+	"rnn_layer.h"
+	"connected_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1607630059 source:c:\users\administrator\desktop\train\route_layer.c
+	"route_layer.h"
+	"cuda.h"
+	"blas.h"
+	<stdio.h>
+
+1607630059 source:c:\users\administrator\desktop\train\shortcut_layer.c
+	"shortcut_layer.h"
+	"cuda.h"
+	"blas.h"
+	"activations.h"
+	<stdio.h>
+	<assert.h>
+
+1607630059 source:c:\users\administrator\desktop\train\softmax_layer.c
+	"softmax_layer.h"
+	"blas.h"
+	"cuda.h"
+	<float.h>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+
+1607630059 source:c:\users\administrator\desktop\train\tree.c
+	<stdio.h>
+	<stdlib.h>
+	"tree.h"
+	"utils.h"
+	"data.h"
+
+1607630059 source:c:\users\administrator\desktop\train\upsample_layer.c
+	"upsample_layer.h"
+	"cuda.h"
+	"blas.h"
+	<stdio.h>
+
+1607630059 source:c:\users\administrator\desktop\train\utils.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+	<unistd.h>
+	<float.h>
+	<limits.h>
+	<time.h>
+	<sys/time.h>
+	"utils.h"
+
+1607630059 source:c:\users\administrator\desktop\train\yolo_layer.c
+	"yolo_layer.h"
+	"activations.h"
+	"blas.h"
+	"box.h"
+	"cuda.h"
+	"utils.h"
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<stdlib.h>
+
+1617984673 source:c:\users\administrator\desktop\train\main.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<omp.h>
+	<thread>
+	<mutex>
+	<windows.h>
+	"darknet.h"
+

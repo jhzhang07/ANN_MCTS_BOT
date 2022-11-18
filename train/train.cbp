@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="train" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="darknet/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/train" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/train" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="activation_kernels.cu" />
+		<Unit filename="activation_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="activation_layer.h" />
+		<Unit filename="activations.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="activations.h" />
+		<Unit filename="avgpool_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="avgpool_layer.h" />
+		<Unit filename="avgpool_layer_kernels.cu" />
+		<Unit filename="batchnorm_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="batchnorm_layer.h" />
+		<Unit filename="blas.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="blas.h" />
+		<Unit filename="blas_kernels.cu" />
+		<Unit filename="box.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="box.h" />
+		<Unit filename="classifier.h" />
+		<Unit filename="col2im.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="col2im.h" />
+		<Unit filename="col2im_kernels.cu" />
+		<Unit filename="connected_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="connected_layer.h" />
+		<Unit filename="convolutional_kernels.cu" />
+		<Unit filename="convolutional_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="convolutional_layer.h" />
+		<Unit filename="cost_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="cost_layer.h" />
+		<Unit filename="crnn_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="crnn_layer.h" />
+		<Unit filename="crop_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="crop_layer.h" />
+		<Unit filename="crop_layer_kernels.cu" />
+		<Unit filename="cuda.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="cuda.h" />
+		<Unit filename="darknet.h" />
+		<Unit filename="data.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="data.h" />
+		<Unit filename="deconvolutional_kernels.cu" />
+		<Unit filename="deconvolutional_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="deconvolutional_layer.h" />
+		<Unit filename="demo.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="demo.h" />
+		<Unit filename="detection_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="detection_layer.h" />
+		<Unit filename="dropout_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="dropout_layer.h" />
+		<Unit filename="dropout_layer_kernels.cu" />
+		<Unit filename="gemm.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="gemm.h" />
+		<Unit filename="gru_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="gru_layer.h" />
+		<Unit filename="im2col.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="im2col.h" />
+		<Unit filename="im2col_kernels.cu" />
+		<Unit filename="image.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="image.h" />
+		<Unit filename="image_opencv.cpp">
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="iseg_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="iseg_layer.h" />
+		<Unit filename="l2norm_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="l2norm_layer.h" />
+		<Unit filename="layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="layer.h" />
+		<Unit filename="list.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="list.h" />
+		<Unit filename="local_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="local_layer.h" />
+		<Unit filename="logistic_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="logistic_layer.h" />
+		<Unit filename="lstm_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="lstm_layer.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="matrix.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="matrix.h" />
+		<Unit filename="maxpool_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="maxpool_layer.h" />
+		<Unit filename="maxpool_layer_kernels.cu" />
+		<Unit filename="network.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="network.h" />
+		<Unit filename="normalization_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="normalization_layer.h" />
+		<Unit filename="option_list.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="option_list.h" />
+		<Unit filename="parser.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="parser.h" />
+		<Unit filename="pthread.h" />
+		<Unit filename="region_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="region_layer.h" />
+		<Unit filename="reorg_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="reorg_layer.h" />
+		<Unit filename="rnn_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="rnn_layer.h" />
+		<Unit filename="route_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="route_layer.h" />
+		<Unit filename="sched.h" />
+		<Unit filename="semaphore.h" />
+		<Unit filename="shortcut_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="shortcut_layer.h" />
+		<Unit filename="softmax_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="softmax_layer.h" />
+		<Unit filename="stb_image.h" />
+		<Unit filename="stb_image_write.h" />
+		<Unit filename="tree.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="tree.h" />
+		<Unit filename="upsample_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="upsample_layer.h" />
+		<Unit filename="utils.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="utils.h" />
+		<Unit filename="yolo_layer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="darknet/" />
+		</Unit>
+		<Unit filename="yolo_layer.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
